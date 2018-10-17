@@ -1,8 +1,10 @@
 /* Enter the code to remove the main node element under this comment */
-element.remove('#main')
+main.remove()
   
 /* Create your new element here and assign it to newHeader */
+const header = document.createElement('h1')
+header.id = 'victory'
+header.innerText = "Alisse is the champion!"
 const newHeader = null;
-let 'victory' = document.createElement('h1')
-.victory.innerText = 'Alisse is the champion!'
+
  
